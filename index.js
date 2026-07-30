@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Servir los archivos visuales de la carpeta public
+// Servir la pantalla visual desde la carpeta public
 app.use(express.static(path.join(__dirname, 'public')));
 
 const PORT = process.env.PORT || 3000;
