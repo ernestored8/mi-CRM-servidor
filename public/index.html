@@ -1,20 +1,4 @@
-[1:42 p. m., 30/7/2026] Geronimo Sorrentino: const express = require('express');
-const cors = require('cors');
-
-const app = express();
-app.use(cors());
-app.use(express.json());
-
-const PORT = process.env.PORT || 3000;
-
-app.get('/', (req, res) => {
-  res.send('<h1>¡Servidor CRM Activo!</h1><p>El backend de tu CRM esta funcionando correctamente.</p>');
-});
-
-app.listen(PORT, () => {
-  console.log('Servidor iniciado correctamente');
-});
-[2:18 p. m., 30/7/2026] Geronimo Sorrentino: <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
